@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.75) ),url(bg1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    margin:auto;
+    height: 100px;
+    display: block;
+    position: relative;
+    top: 10px;
+    
+}
+.blogs{
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    margin: 20px auto;
+    position: relative;
+    /* top:20px; */
+}
+.navbar{
+    width: 45%;
+    margin: 15px auto;
+    margin: 15px auto;
+    display: flex;
+    padding: 17px 0;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent   ;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+.blog-box{
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    margin: 20px;
+
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+.blog-text span{
+    color: #f33c3c;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #272727;
+}
+.blog-text .blog-title:hover{
+    color: #aa0000;
+    transition: all ease 0.3s;
+}
+
+.blog-text p{
+    color: #9b9b9b;
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
+.blog-text a{
+    color: #0f0f0f;
+    display: block;
+    margin-top: 10px;
+    
+}
+.blog-text a:hover{
+    color: #f33c3c;
+    transition: all ease 0.3s;
+}
